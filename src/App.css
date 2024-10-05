@@ -1,0 +1,320 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.logo-tagline {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  height: 5%;
+  margin-right: 10px;
+}
+
+.header-content {
+  text-align: center; /* Center the entire content */
+  margin-top: 20px;
+}
+
+.heading {
+  font-weight: bold; /* Make the heading bold */
+  font-size: 36px;
+  color: black; /* Adjust the size as needed */
+}
+
+.tagline {
+  font-size: 18px; /* Adjust the font size */
+  color: #0030aa; /* Change the color of the tagline to blue */
+  margin-top: 10px; /* Add space between h1 and p */
+}
+
+/*TOP image*/
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically if the container has height */
+  margin: 20px 0 ; /* Optional: Adds some vertical spacing around the image */
+  margin-left: 50rem;
+}
+
+
+/*PROFILE and DROPDOWN*/
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  left: auto; 
+  background-color: rgb(197, 196, 196)/* Aligns the dropdown to the right */
+}
+
+.dropdown-item {
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.dropdown-item:hover {
+  background-color: #4dbbff; /* Red color when hovered */
+  color: #ffffff; /* Optional: Change text color to white for better contrast */
+}
+
+.logout-item:hover {
+  background-color: #ff4d4d; /* Red color when hovered */
+  color: #ffffff; /* Optional: Change text color to white for better contrast */
+}
+
+#choose{
+  font-size: 5rem;
+}
+
+.circle-container {
+  display: flex; /* Use Flexbox to align circles in a row */
+  justify-content: center; /* Center circles horizontally */
+  margin-top: 20px; /* Adds space between the heading and circles */
+}
+
+.circle {
+  display: flex; /* Center text inside the circle */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  width: 250px; /* Set circle width */
+  height: 250px; /* Set circle height */
+  border-radius: 50%; /* Make the div circular */
+  margin: 0 40px; /* Add space between circles */
+  font-family: 'Arial', sans-serif; /* Use a beautiful font */
+  color: white; /* Text color */
+  text-align: center; /* Center text alignment */
+  padding: 20px; /* Add some padding */
+  font-size: 20px; /* Increase font size for better readability */
+  font-weight: bold; /* Make text bold */
+  position: relative; /* Required for positioning child elements */
+  overflow: hidden; /* Hide overflow for circular effect */
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.circle:hover {
+  transform: scale(1.1); /* Scale up the circle on hover */
+}
+
+.circle img {
+  position: absolute; /* Position image absolutely */
+  width: 100%; /* Full width of the circle */
+  height: 100%; /* Full height of the circle */
+  border-radius: 50%; /* Make image circular */
+  object-fit: cover; /* Cover the area of the circle */
+  opacity: 0; /* Hide the image by default */
+  transition: opacity 0.3s ease; /* Smooth transition for image opacity */
+}
+
+.circle:hover img {
+  opacity: 1; /* Show image on hover */
+}
+
+.green {
+  background-color: #28a745; /* Green shade */
+}
+
+.blue {
+  background-color: #007bff; /* Blue shade */
+}
+
+.teal {
+  background-color: #20c997; /* Teal shade */
+}
+
+.button-container {
+  display: flex; /* Use Flexbox to align buttons in a row */
+  justify-content: center; /* Center buttons horizontally */
+  margin-top: 50px; /* Space above buttons */
+}
+
+.btn-purple {
+  background-color: #6f42c1; /* Purple color */
+  color: white; /* Text color */
+  font-size: 20px; /* Increase font size */
+  padding: 15px 30px; /* Increase padding for bigger buttons */
+  margin: 0 15px; /* Increased space between buttons */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Optional: Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Optional: Change color on hover */
+.btn-purple:hover {
+  background-color: #5a31a5; /* Darker shade of purple on hover */
+  color: white;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px 0; /* Padding for the footer */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  margin-top: 5rem;
+}
+
+.footer h4 {
+  margin-bottom: 10px; /* Space below heading */
+  font-weight: bold; /* Make header bold */
+}
+
+.footer p {
+  margin-bottom: 20px; /* Space below paragraph */
+  color: #555; /* Text color */
+}
+
+.social-icons {
+  display: flex; /* Flexbox for alignment */
+  justify-content: center; /* Center icons */
+}
+
+.social-icon {
+  font-size: 30px; /* Icon size */
+  margin: 0 15px; /* Space between icons */
+  color: #555; /* Default icon color */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Specific colors for different social media */
+.social-icon.facebook:hover {
+  color: #3b5998; /* Facebook color */
+}
+
+.social-icon.twitter:hover {
+  color: #1da1f2; /* Twitter color */
+}
+
+.social-icon.instagram:hover {
+  color: #e1306c; /* Instagram color */
+}
+
+.social-icon.linkedin:hover {
+  color: #0077b5; /* LinkedIn color */
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+/*CART*/
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px; /* Reduced gap between plus/minus buttons */
+  justify-content: flex-start; /* Align buttons to the left */
+}
+
+.quantity-controls button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0; /* Remove padding for a clean circular button */
+  font-size: 24px; /* Adjusted font size for plus/minus signs */
+  border-radius: 50%; /* Make buttons circular */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 40px; /* Fixed width for circular shape */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the plus/minus signs inside the button */
+  line-height: 1; /* Ensures no extra space around the symbol */
+}
+
+.quantity-controls button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+
+
+.add-to-cart {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px; /* Rounded button for a modern look */
+  margin-top: 20px; /* Increased gap above the Add to Cart button */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #218838;
+  transform: translateY(-2px); /* Slight lifting effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cart {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+h3 {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,72 @@
+.cart {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    position: relative; /* For absolute positioning of credits */
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credits {
+    font-size: 16px;
+    color: #007bff; /* Highlight color for credits */
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+}
+
+.total {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Clear Cart Button */
+.clear-cart {
+    background-color: #dc3545; /* Red background for clear cart */
+    color: white;
+    padding: 12px 25px; /* Consistent padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Checkout Button */
+.checkout {
+    background-color: #28a745; /* Green background for checkout */
+    color: white;
+    padding: 12px 25px; /* Consistent padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effects */
+.clear-cart:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.checkout:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    gap: 30px; /* Increased gap between buttons */
+    margin-top: 15px; /* Space above buttons */
+}

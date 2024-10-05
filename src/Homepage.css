@@ -1,0 +1,58 @@
+/* src/HomePage.css */
+.home-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: #f0f8ff;
+    padding: 20px;
+}
+
+.benefits {
+    margin: 20px 0;
+}
+
+.call-to-action {
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+.quick-access a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.navigation {
+    margin: 20px 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.featured {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e9ecef;
+}

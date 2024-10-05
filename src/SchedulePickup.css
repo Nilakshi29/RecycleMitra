@@ -1,0 +1,31 @@
+.schedule-pickup-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .schedule-pickup-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .schedule-pickup-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .schedule-pickup-container input,
+  .schedule-pickup-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .schedule-pickup-container button {
+    width: 100%;
+  }
+  
