@@ -89,21 +89,24 @@ function App() {
   return (
     <Router>
       <div className="App">
+       
         <Header isLoggedIn={isLoggedIn} toggleLogin={toggleLogin} />
 
         {/* Full-size Image Below Header */}
         <div>
           <img
-            src={require('./assets/banner.jpeg')} // Use your actual image filename
+            src={require('./assets/banner.jpeg')}
             alt="Banner"
             className="banner-image"
-            style={{ width: '100%', height: '550px' }} // Set height to 550 pixels for a taller image
+            style={{ width: '100%', height: '550px' }}
           />
         </div>
 
         {/* Main Content */}
         <main className="container text-center mt-5">
           <h2 id="choose">Why Choose Us?</h2>
+
+          {/*3 circles describing why choose us*/}
           <div className="circle-container">
             <div className="circle green">
               <img src={require('./assets/circle1.jpeg')} alt="Door service" />
@@ -157,7 +160,7 @@ function App() {
             <p>Follow us on social media for updates:</p>
             <div className="social-icons">
               <a
-                href="https://www.facebook.com/YourPage"
+                href="https://www.facebook.com/?_rdr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon facebook"
@@ -165,7 +168,7 @@ function App() {
                 <i className="fab fa-facebook-f"></i>
               </a>
               <a
-                href="https://www.twitter.com/YourProfile"
+                href="https://x.com/?lang=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon twitter"
@@ -173,7 +176,7 @@ function App() {
                 <i className="fab fa-twitter"></i>
               </a>
               <a
-                href="https://www.instagram.com/YourProfile"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon instagram"
@@ -181,7 +184,7 @@ function App() {
                 <i className="fab fa-instagram"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/YourProfile"
+                href="https://www.linkedin.com/in/Nilakshi-Shree"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon linkedin"
